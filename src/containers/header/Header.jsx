@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className="parallax__header" id="home">
       <div className="parallax__header-content">
-        <img src={python} data-value="-5" alt="python" />
-        <img src={js} data-value="5" alt="javascript" />
+        <img src={python} data-value="-5" alt="python" className="python" />
+        <img src={js} data-value="5" alt="javascript" className="js"/>
         <img src={python} data-value="-2" alt="python" />
         <img src={python} data-value="6" alt="python" />
         <img src={python} data-value="4" alt="python" />
