@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./header.css"
 import python from "../../assets/python.png"
 import ts from "../../assets/typescript.png"
@@ -47,37 +47,38 @@ const Header = () => {
 
   return (
     <div className="parallax__header" id="home">
-      <div className="parallax__header-content">
-        <img src={python} data-value="-2" alt="python" />
-        <img src={js} data-value="6" alt="javascript" />
-        <img src={ts} data-value="4" alt="typescript" />
-        <img src={react} data-value="-6" alt="react" />
-        <img src={next} data-value="8" alt="next" />
-        <img src={tailwind} data-value="-4" alt="tailwind" />
-        <img src={html} data-value="5" alt="html" />
-        <img src={css} data-value="-9" alt="css" />
-        <img src={border1} data-value="-2" alt="border" />
-        <img src={border2} data-value="6" alt="border" />
-        <img src={border3} data-value="4" alt="border" />
-        <img src={border4} data-value="-6" alt="border" />
-        <img src={border5} data-value="8" alt="border" />
-        <img src={border6} data-value="-4" alt="border" />
-        <img src={border7} data-value="5" alt="border" />
-        <img src={solid1} data-value="-9" alt="solid" />
-        <img src={solid2} data-value="-2" alt="solid" />
-        <img src={solid3} data-value="6" alt="solid" />
-        <img src={solid4} data-value="4" alt="solid" />
-        <img src={solid5} data-value="-6" alt="solid" />
-        <img src={solid6} data-value="8" alt="solid" />
-        <img src={solid7} data-value="-4" alt="solid" />
-        <img src={solid8} data-value="5" alt="solid" />
-        <img src={solid9} data-value="-9" alt="solid" />
-        <img src={solid10} data-value="-2" alt="solid" />
-        <img src={solid11} data-value="6" alt="solid" />
-        <img src={solid12} data-value="4" alt="solid" />
-        <img src={solid13} data-value="-6" alt="solid" />
-        <img src={solid14} data-value="8" alt="solid" />
+      <div className="parallax__header-content" >
+        <img src={python} data-value="7.5" alt="python" />
+        <img src={js} data-value="-8.3" alt="javascript" />
+        <img src={ts} data-value="3.2" alt="typescript" />
+        <img src={react} data-value="2" alt="react" />
+        <img src={next} data-value="9.1" alt="next" />
+        <img src={tailwind} data-value="0" alt="tailwind" />
+        <img src={html} data-value="-6.7" alt="html" />
+        <img src={css} data-value="-8.7" alt="css" />
+        <img src={border1} data-value="-1.9" alt="border" />
+        <img src={border2} data-value="-5.3" alt="border" />
+        <img src={border3} data-value="2" alt="border" />
+        <img src={border4} data-value="7.1" alt="border" />
+        <img src={border5} data-value="-6.5" alt="border" />
+        <img src={border6} data-value="-9.1" alt="border" />
+        <img src={border7} data-value="9" alt="border" />
+        <img src={solid1} data-value="6.7" alt="solid" />
+        <img src={solid2} data-value="-6.8" alt="solid" />
+        <img src={solid3} data-value="-7" alt="solid" />
+        <img src={solid4} data-value="2.9" alt="solid" />
+        <img src={solid5} data-value="0.5" alt="solid" />
+        <img src={solid6} data-value="0.4" alt="solid" />
+        <img src={solid7} data-value="8.4" alt="solid" />
+        <img src={solid8} data-value="-0.7" alt="solid" />
+        <img src={solid9} data-value="-8.6" alt="solid" />
+        <img src={solid10} data-value="-1.8" alt="solid" />
+        <img src={solid11} data-value="7.3" alt="solid" />
+        <img src={solid12} data-value="-6.7" alt="solid" />
+        <img src={solid13} data-value="-9" alt="solid" />
+        <img src={solid14} data-value="2.3" alt="solid" />
         <h1 className="gradient__text" data-value="3" >Parallax</h1>
+        <p>Website by Vybz</p>
       </div>
     </div>
   );
