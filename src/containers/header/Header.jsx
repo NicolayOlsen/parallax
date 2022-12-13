@@ -78,7 +78,7 @@ const Header = () => {
         <img src={solid13} data-value="-9" alt="solid" />
         <img src={solid14} data-value="2.3" alt="solid" />
         <h1 className="gradient__text" data-value="3" >Parallax</h1>
-        <p>Website by Vybz</p>
+        <p>Website by Vybz.</p>
       </div>
     </div>
   );
