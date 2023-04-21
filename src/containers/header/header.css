@@ -26,6 +26,7 @@
     font-size: 8em;
     letter-spacing: -0.04em;
     text-shadow: 0 0 15rem #ff4d4d;
+    user-select: none;
 }
 .parallax__header-content p {
     position: absolute;
@@ -34,6 +35,7 @@
     color: #fff;
     font-weight: 800;
     text-shadow: 0 0 15rem #ff4d4d;
+    user-select: none;
 }
 .parallax__header-content img {
     position: absolute;
